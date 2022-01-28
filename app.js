@@ -217,6 +217,6 @@ console.log(joe.scopeArrow());
 // 1. What is "this" when joe.scope() is invoked?
 // An instance of the 'Student' object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// 
+// When invoking the arrow function, "this" is defined by the global object scope rather than the calling function or the argument.
 // 3. Explain why "this" is different when an arrow function is used.
 // Arrow functions do not have the same limited scope that other function expressions do
